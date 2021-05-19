@@ -1,7 +1,7 @@
 const env = {
     database: 'bucksdb',
     username: 'root',
-    password: '12345',
+    password: 'test',
     host: 'localhost',
     dialect: 'mysql',
     pool: {

@@ -5,11 +5,11 @@ var bodyParser = require('body-parser');
  
 global.__basedir = __dirname;
  
-const db = require('./app/config/db.config.js');
+const db = require('./config/db.config.js');
 
 const Player = db.Player;
 
-let router = require('./app/routers/router.js');
+let router = require('./routers/router.js');
 
 const cors = require('cors')
 const corsOptions = {
